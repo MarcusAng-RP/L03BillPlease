@@ -9,7 +9,7 @@
         android:id="@+id/textViewAmount"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Amount" />
+        android:text="@string/amount" />
 
     <EditText
         android:id="@+id/etAmountInput"
@@ -22,7 +22,7 @@
         android:id="@+id/editTextPaxtitle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Num of Pax" />
+        android:text="@string/num_of_pax" />
 
     <EditText
         android:id="@+id/etPax"
@@ -41,25 +41,25 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="toggleButtonSVS"
-            android:textOff="NO SVS"
-            android:textOn="SVS" />
+            android:text="@string/togglebuttonsvs"
+            android:textOff="@string/no_svs"
+            android:textOn="@string/svs" />
 
         <ToggleButton
             android:id="@+id/tgGST"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="ToggleButton"
-            android:textOff="NO GST"
-            android:textOn="GST" />
+            android:text="@string/togglebuttongst"
+            android:textOff="@string/no_gst"
+            android:textOn="@string/gst" />
     </LinearLayout>
 
     <TextView
         android:id="@+id/tvDiscountInput"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Discount (%)" />
+        android:text="@string/discount" />
 
     <EditText
         android:id="@+id/etDiscount"
@@ -78,13 +78,13 @@
                 android:id="@+id/radioCash"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Cash" />
+                android:text="@string/cash" />
 
             <RadioButton
                 android:id="@+id/radioPayNow"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="PayNow" />
+                android:text="@string/paynow" />
 
 
     </RadioGroup>
@@ -99,27 +99,27 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="SPLIT" />
+            android:text="@string/split" />
 
         <Button
             android:id="@+id/btnReset"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="RESET" />
+            android:text="@string/reset" />
 
     </LinearLayout>
 
     <TextView
         android:id="@+id/tvTotalDisplay"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="TextView" />
+        android:layout_height="wrap_content"></TextView>
+
 
     <TextView
         android:id="@+id/tveachPay"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="TextView" />
+        android:layout_height="wrap_content"></TextView>
+
 
 </LinearLayout>
